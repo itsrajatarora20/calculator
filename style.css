@@ -1,0 +1,74 @@
+body
+{
+		background:linear-gradient(to right,#65C6BB,#66CC99);
+}
+
+.button
+{
+	width: 50px;
+	height: 50px;
+	font-size: 2em;
+	margin:2px;
+	cursor: pointer;
+	transition: 0.5s;
+	font-family: 'Lobster', cursive;
+	border-radius: 10px;
+	outline: none;
+	color: rgba(0,0,0,0.8);
+}
+
+.button:hover
+{
+	width: 50px;
+	height: 50px;
+	font-size: 2em;
+	margin:2px;
+	cursor: pointer;
+	text-shadow: 1px 1px 1px black;
+}
+
+.textview
+{
+	width: 214px;
+	margin:5px;
+	font-size:25px;
+	padding: 5px;
+	font-family: 'Lobster', cursive;
+	border-radius: 10px;
+	outline: none;
+}
+
+.main
+{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	box-shadow: 20px 20px 50px black;
+	border: 2px solid #65C6BB;
+	border-radius: 13px;
+}
+
+h2
+{
+	text-align: center;
+	letter-spacing: 0.5em; 
+	margin-top: 50px;
+	color: rgba(0,0,0,0.6);
+	font-size: 3em;
+	font-family: 'Srisakdi', cursive;
+}
+
+h3
+{
+	letter-spacing: 0.1em;
+	color: rgba(0,0,0,0.9);
+	text-transform:uppercase;
+}
+
+
+.color1,.color2
+{
+	border:01px solid rgba(255,255,255,0.3);
+	border-radius: 4px;
+}
